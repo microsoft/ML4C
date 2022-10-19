@@ -11,7 +11,7 @@ cd Examples/
 python main.py
 ```
 
-This example orient a given skeleton. A simple call to `orient_skeleton` would work. Specifically, the arguments are:
+This example orients a given skeleton. A simple call to `orient_skeleton` would work. Specifically, the arguments are:
 
 + `datapath`: `str`. Path to the observational data records. Should end with `.npy`, with the array in shape `(n_samples, n_variables)`. Now we only support discrete data, so the entries of this data array must be integers.
 + `skeletonpath`: `str`. Path to the provided skeleton's adjacency matrix. Should end with `.txt`, with the array in shape `(n_variables, n_variables)`. If `i--j` is in the skeleton, then `a[i, j] = a[j, i] = 1`, and otherwise `a[i, j] = a[j, i] = 0`. Note that, 
