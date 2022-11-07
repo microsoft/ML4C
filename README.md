@@ -1,6 +1,6 @@
 # ML4C: Seeing Causality Through Latent Vicinity
 
-ML4C (Machine Learning for Causality) is a **supervised** causal discovery approach on **observational** data (and currently only supports **discrete** data). Starting from an input dataset with the corresponding skeleton provided, ML4C classifies (orients) whether each unshielded triple is a v-structure or not, and then outputs the corresponding CPDAG. Theoretically, ML4C is asymptotically correct by considering the graphical predicates in vicinity of each unshielded triple. Empirically, ML4C remarkably outperforms other state-of-the-art algorithms in terms of accuracy, reliability, robustness and tolerance. See our [paper](https://arxiv.org/abs/2110.00637) for more details.
+ML4C (Machine Learning for Causality) is a **supervised** causal discovery approach on **observational** data (and currently only supports **discrete** data) with theoretical guarantee. Starting from an input dataset with the corresponding skeleton provided, ML4C classifies (orients) whether each unshielded triple is a v-structure or not, and then outputs the corresponding CPDAG. Theoretically, ML4C is asymptotically correct by considering the graphical predicates in vicinity of each unshielded triple. Empirically, ML4C remarkably outperforms other state-of-the-art algorithms in terms of accuracy, reliability, robustness and tolerance. See our [paper](https://arxiv.org/abs/2110.00637) for more details.
 
 ---
 
