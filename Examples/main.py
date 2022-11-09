@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import numpy as np
